@@ -1,0 +1,30 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Local app data, browser state, credentials and logs
+state/
+work/
+cookies/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.jsonl
+**/state/
+**/work/
+**/cookies/
+**/logs/
+**/运行日志.log
+
+# Build artifacts
+build/
+dist/
+dist_customer/
+*.spec
